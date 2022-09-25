@@ -5,88 +5,89 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Бандерогусь</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <!-- header -->
+    <section class="main-page">
+      <div class="wrapper">
+        <header class="header">
+          <a href="#" class="goit-link">
+            <img src="./img/logo.svg" alt="logo" />
+          </a>
+          <p class="logo-text">
+            Школа підготовки <br />
+            IT-спеціалістів
+          </p>
+        </header>
 
-    <header class="header">
-      <a href="#" class="goit-link">
-        <img src="./img/logo.svg" alt="logo" />
-      </a>
-      <p class="logo-text">
-        Школа підготовки <br />
-        IT-спеціалістів
+        <div class="main-page-row">
+          <div class="main-container">
+            <p class="hero-hello-text">Доброго вечора, ми з України</p>
+            <p class="hero-start-text">На старт. Увага. Полетіли!</p>
+            <h1 class="hero-title">Бандерогусь</h1>
+            <p class="hero-main-text">
+              Спеціальний бойовий гусак із біолабораторій України. Пишаюся
+              своїми подвигами, бороню Батьківщину та підтримую позитивний дух
+              народу. Слава Україні!
+            </p>
+            <button type="button" class="hero-link">Запустити гуся</button>
+          </div>
+          <img src="./img/gus.svg" alt="goose" class="big-goose" />
+        </div>
+      </div>
+    </section>
+    <section class="facts">
+      <img src="./img/trezub.png" alt="ukraine" class="ukr-logo" />
+      <h2 class="gus-title">Цікаві факти про бандерогусей</h2>
+      <p class="gus-description">
+        Зазвичай бандерогуси — виключно мирні птахи. Але у разі небезпеки можуть
+        атакувати ворога системою надпотужного озброєння. Також нищать
+        психологічно, активуючи високочастотне шипіння та розмахування крилами
       </p>
-    </header>
-    <!-- main -->
-    <main class="main">
-      <section class="hero">
-        <h1>Бандерогусь</h1>
-        <p>Доброго вечора, ми з України</p>
-        <p>На старт. Увага. Полетіли!</p>
-        <p>
-          Спеціальний бойовий гусак із біолабораторій України. Пишаюся своїми
-          подвигами, бороню Батьківщину та підтримую позитивний дух народу.
-          Слава Україні!
-        </p>
-        <a href="">Запустити гуся</a>
-        <img
-          src="./img/gus.jpg"
-          alt="goose"
-          width="640"
-          height="720"
-          class="big-goose"
-        />
-      </section>
-
-      <section class="facts">
-        <img src="./img/trezub.png" alt="ukraine" />
-        <h2>Цікаві факти про бандерогусей</h2>
-        <p>
-          Зазвичай бандерогуси — виключно мирні птахи. Але у разі небезпеки
-          можуть атакувати ворога системою надпотужного озброєння. Також нищать
-          психологічно, активуючи високочастотне шипіння та розмахування крилами
-        </p>
-      </section>
-      <section class="features">
-        <h2 class="visually-hidden">features</h2>
-        <ul>
-          <li>
-            <img src="./img/gus1.jpg" alt="banderogoose" />
-            <h3>Система навігації</h3>
-            <p>
-              Супутниковий GPS та ехолокатори розпізнають ворожу техніку навіть
-              на етапі збірки
-            </p>
-          </li>
-          <li>
-            <img src="./img/gus2.jpg" alt="banderogoose" />
-            <h3>Очі-тепловізори</h3>
-            <p>
-              Допомагають виявити характер сигнатури об’єктів та значно
-              підвищують точність удару
-            </p>
-          </li>
-          <li>
-            <img src="./img/gus3.jpg" alt="banderogoose" />
-            <h3>Байракрила</h3>
-            <p>
-              Можуть нести 2-4 керовані ракети, що вражають ціль на відстані
-              «ніхріна собі» кілометрів
-            </p>
-          </li>
-        </ul>
-      </section>
-      <section class="ukraine">
-        <img src="./img/trezub.png" alt="ukraine" />
-        <h2>Перемога завжди за нами!</h2>
-        <p>
-          Головна мета бандерогусей — служити гумору та доброті нашого народу.
-          Ми забезпечимо вашу посмішку у часи, коли вона так необхідна
-        </p>
-      </section>
-    </main>
+    </section>
+    <section class="features">
+      <h2 class="visually-hidden">features</h2>
+      <ul class="gus-features">
+        <li class="gus-features-item">
+          <img src="./img/gus1.jpg" alt="banderogoose" />
+          <h3>Система навігації</h3>
+          <p>
+            Супутниковий GPS та ехолокатори розпізнають ворожу техніку навіть на
+            етапі збірки
+          </p>
+        </li>
+        <li class="gus-features-item">
+          <img src="./img/gus2.jpg" alt="banderogoose" />
+          <h3>Очі-тепловізори</h3>
+          <p>
+            Допомагають виявити характер сигнатури об’єктів та значно підвищують
+            точність удару
+          </p>
+        </li>
+        <li class="gus-features-item">
+          <img src="./img/gus3.jpg" alt="banderogoose" />
+          <h3>Байракрила</h3>
+          <p>
+            Можуть нести 2-4 керовані ракети, що вражають ціль на відстані
+            «ніхріна собі» кілометрів
+          </p>
+        </li>
+      </ul>
+    </section>
+    <section class="ukraine">
+      <img src="./img/trezub.png" alt="ukraine" class="ukr-logo" />
+      <h2 class="features-title">Перемога завжди за нами!</h2>
+      <p>
+        Головна мета бандерогусей — служити гумору та доброті нашого народу. Ми
+        забезпечимо вашу посмішку у часи, коли вона так необхідна
+      </p>
+    </section>
   </body>
 </html>
