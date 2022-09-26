@@ -96,19 +96,29 @@
 
     <div class="modal-bgd" id="form-modal">
       <div class="modal-form-container">
-        <form action="#" class="modal-form">
-          <button class="close-btn">x</button>
+        <button class="close-btn">x</button>
+        <form action="#" class="modal-form" data-netlify="true" id="form">
           <img src="./img/trezub.png" alt="ukr-logo" />
           <h4 class="modal-form-title">Поділися, будь ласка, поштою</h4>
           <p class="fodal-form-description">та запиши гуся до бандерозагону</p>
 
           <div class="modal-form-field">
             <label for="user-name" class="modal-field-name">Імʼя</label>
-            <input type="text" class="modal-form-input" id="user-name" />
+            <input
+              type="text"
+              class="modal-form-input"
+              id="user-name"
+              name="Name"
+            />
           </div>
           <div class="modal-form-field">
             <label for="user-mail" class="modal-field-name">Email</label>
-            <input type="email" class="modal-form-input" id="user-mail" />
+            <input
+              type="email"
+              class="modal-form-input"
+              id="user-mail"
+              name="Email"
+            />
           </div>
 
           <button class="modal-form-btn" id="launch-btn">Запустити гуся</button>
